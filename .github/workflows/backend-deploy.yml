@@ -38,6 +38,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.2
         with: 
+          token: ${{secrets.TOKEN}}
           branch: gh-pages  # Specify the branch where you want to deploy
           folder: ./publish  # Set the folder containing the published files
-          #token: ${{secrets.TOKEN}}
