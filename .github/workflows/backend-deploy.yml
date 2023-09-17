@@ -40,4 +40,4 @@ jobs:
         with: 
           branch: gh-pages  # Specify the branch where you want to deploy
           folder: ./publish  # Set the folder containing the published files
-          token: ${{secrets.TOKEN}}
+          #token: ${{secrets.TOKEN}}
